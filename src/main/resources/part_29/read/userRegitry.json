@@ -10,5 +10,6 @@
     "city": "New York",
     "country": "USA"
   },
-  "profilePicture": "https://example.com/profile_picture.jpg"
+  "profilePicture": "https://example.com/profile_picture.jpg",
+  "premium_access": true
 }
