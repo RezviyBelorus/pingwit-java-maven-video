@@ -13,6 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
+    <jackson.databind.version>2.16.1</jackson.databind.version>
   </properties>
 
   <dependencies>
@@ -31,6 +32,17 @@
       <artifactId>poi-ooxml</artifactId>
       <version>5.2.5</version>
     </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson.databind.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>${jackson.databind.version}</version>
+    </dependency>
+
   </dependencies>
 
   <build>

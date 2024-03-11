@@ -1,0 +1,14 @@
+{
+  "username": "john_doe",
+  "email": "john.doe@example.com",
+  "password": "adminadmin",
+  "fullName": "John Doe",
+  "birthdate": "05-01-1990",
+  "gender": "male",
+  "interests": ["photography", "traveling", "cooking"],
+  "location": {
+    "city": "New York",
+    "country": "USA"
+  },
+  "profilePicture": "https://example.com/profile_picture.jpg"
+}
