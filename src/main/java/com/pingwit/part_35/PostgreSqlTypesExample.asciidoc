@@ -1,0 +1,119 @@
+.PostgreSQL commands
+|===
+|Command | Description
+
+|\l
+|show databases
+
+|\dt
+|show all tables
+
+|\d+ [table_name]
+|show table's structure
+
+|\c [db_name]
+|switch database
+
+|create database [db_name];
+|create database
+
+|drop database [db_name];
+|drop database
+
+|CREATE TABLE [table_name] (
+column1 datatype,
+column2 datatype
+);
+|create table, unquoted table name will be in lower case.
+CREATE TABLE Users
+(
+id integer PRIMARY KEY,
+name character varying NOT NULL,
+age integer NOT NULL,
+rating numeric default 0.0,
+payment numeric,
+active boolean
+);
+
+|DROP TABLE [table_name];
+|Drop table
+
+|INSERT INTO [table_name] (id, name) VALUES (1, 'Egorka');
+|inserts data into the table
+
+|ALTER TABLE [table_name] ADD column city varchar;
+|Change column type
+
+|UPDATE [table_name] SET [column_name_1] = 'Alfred Schmidt', [table_name_2]= 'Frankfurt' WHERE [table_name_3] = 1;
+|Update existing values
+
+|UPDATE account_details SET [column_name] = RIGHT([column_name], 3);
+|Trim varchar column value, example: Egorka -> rka, Donald -> ald
+
+|UPDATE account_details SET [column_name] = LEFT([column_name], 5);
+|Trim varchar column value, example: Egorka -> Ego, Donald -> Don
+
+|ALTER TABLE [table_name] ALTER COLUMN [column_name] type integer using ([column_name]::integer);
+|Change column type from Varchar to Integer
+
+|ALTER TABLE [table_name] RENAME TO [new_table_name]
+|Rename table
+
+|===
+
+
+.PostgreSQL data types with Java types matching
+|===
+|PostgreSQL | Description | Java
+
+|character varying (n)
+|(0 <= n <= 65535)
+|String
+
+|text
+|variable unlimited length
+|String
+
+|smallint
+|-32768 to +32767 -> 2^16
+|Short
+
+|integer
+|-2147483648 to +2147483647 -> 2^32
+|Integer
+
+|bigint
+|Range = 2^64
+|Long
+
+|numeric / decimal
+|up to 131072 digits before the decimal point; up to 16383 digits after the decimal point
+|Double
+
+|boolean
+|true/false/null
+|Boolean
+
+|serial
+|autoincrementing integer 1 to 2147483647
+|Positive Integer
+
+|bigserial
+|large autoincrementing integer 1 to 9223372036854775807
+|Positive Long
+
+|===
+
+
+.Restrictions
+|===
+|Type | Restriction | Description
+
+|primary key (первичный ключ)
+|
+- Значение в колонке primary key не может быть null
+
+- Уникальное значение в рамках одной таблицы
+
+- У таблицы может быть primary key, а может отсутствовать
+|это колонка или несколько колонок значение которых является уникальным в рамках одной таблицы
