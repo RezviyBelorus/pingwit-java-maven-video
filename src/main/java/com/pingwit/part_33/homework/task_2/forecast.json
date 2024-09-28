@@ -1,0 +1,305 @@
+{
+  "city": "Barcelona",
+  "forecast": [
+    {
+      "date": "2024-09-01",
+      "temperature": {
+        "morning": 22,
+        "day": 28,
+        "evening": 25,
+        "night": 20
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-02",
+      "temperature": {
+        "morning": 23,
+        "day": 29,
+        "evening": 26,
+        "night": 21
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-03",
+      "temperature": {
+        "morning": 24,
+        "day": 30,
+        "evening": 27,
+        "night": 22
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-04",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-05",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "cloudy"
+    },
+    {
+      "date": "2024-09-06",
+      "temperature": {
+        "morning": 21,
+        "day": 26,
+        "evening": 23,
+        "night": 19
+      },
+      "description": "rainy"
+    },
+    {
+      "date": "2024-09-07",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-08",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-09",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "cloudy"
+    },
+    {
+      "date": "2024-09-10",
+      "temperature": {
+        "morning": 21,
+        "day": 26,
+        "evening": 23,
+        "night": 19
+      },
+      "description": "rainy"
+    },
+    {
+      "date": "2024-09-11",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-12",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-13",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-14",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-15",
+      "temperature": {
+        "morning": 24,
+        "day": 30,
+        "evening": 27,
+        "night": 22
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-16",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-17",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "cloudy"
+    },
+    {
+      "date": "2024-09-18",
+      "temperature": {
+        "morning": 21,
+        "day": 26,
+        "evening": 23,
+        "night": 19
+      },
+      "description": "rainy"
+    },
+    {
+      "date": "2024-09-19",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-20",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-21",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "cloudy"
+    },
+    {
+      "date": "2024-09-22",
+      "temperature": {
+        "morning": 21,
+        "day": 26,
+        "evening": 23,
+        "night": 19
+      },
+      "description": "rainy"
+    },
+    {
+      "date": "2024-09-23",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-24",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-25",
+      "temperature": {
+        "morning": 24,
+        "day": 30,
+        "evening": 27,
+        "night": 22
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-26",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "cloudy"
+    },
+    {
+      "date": "2024-09-27",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "rainy"
+    },
+    {
+      "date": "2024-09-28",
+      "temperature": {
+        "morning": 21,
+        "day": 26,
+        "evening": 23,
+        "night": 19
+      },
+      "description": "sunny"
+    },
+    {
+      "date": "2024-09-29",
+      "temperature": {
+        "morning": 22,
+        "day": 27,
+        "evening": 24,
+        "night": 20
+      },
+      "description": "partly cloudy"
+    },
+    {
+      "date": "2024-09-30",
+      "temperature": {
+        "morning": 23,
+        "day": 28,
+        "evening": 25,
+        "night": 21
+      },
+      "description": "cloudy"
+    }
+  ]
+}
