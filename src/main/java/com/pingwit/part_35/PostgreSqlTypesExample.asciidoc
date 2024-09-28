@@ -67,7 +67,7 @@ active boolean
 |PostgreSQL | Description | Java
 
 |character varying (n)
-|(0 <= n <= 65535)
+|0 <= n <= 1,073,741,824 (1 Гигабайт). На практике лучше использовать не более 110,485,760 (10 Мегабайт)
 |String
 
 |text

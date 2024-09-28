@@ -1,5 +1,8 @@
 package com.pingwit.part_41.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
     private Long id;
     private String name;
@@ -10,6 +13,8 @@ public class User {
     private String country;
     private String currency;
     private String bio;
+
+    private List<Order> orders = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -81,6 +86,14 @@ public class User {
 
     public void setBio(String bio) {
         this.bio = bio;
+    }
+
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 
     @Override
