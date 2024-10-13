@@ -1,0 +1,80 @@
+==== Task 1
+
+Подсчитайте средний возраст всех студентов (таблица student)
+
+[source, sql]
+----
+SELECT Avg(*) as avg_age
+FROM student;
+
+----
+
+
+==== Task 2
+
+Напишите запрос, который возвращает имена и фамилии 5 самых старших студентов.
+
+[source, sql]
+----
+SELECT name, surname, age
+FROM student
+ORDER BY age DESC
+LIMIT 5;
+----
+
+
+==== Task 3
+
+Найдите имена и фамилии всех студентов, у которых имя заканчивается на "a".
+
+[source, sql]
+----
+SELECT name, surname
+FROM student
+WHERE surname LIKE '%a';
+----
+
+==== Task 4
+
+Найдите имена и фамилии студентов, у которых фамилия содержит "no". Помните о том, что фрагмент может быть в начале фамилии.
+
+[source, sql]
+----
+SELECT name, surname
+FROM student
+WHERE surname ILIKE '%no%';
+----
+
+==== Task 5
+
+Напишите запрос, который подсчитывает количество неактивных студентов (active = false).  Колонка с количеством студентов должна называться inactive_studennts.
+
+[source, sql]
+----
+SELECT COUNT(*) AS inactive_students
+FROM student
+WHERE active = false;
+----
+
+==== Task 6
+
+Напишите запрос для выборки студентов с 6 по 10 из таблицы student. Полученный результат отсортируйте по убыванию id
+
+[source, sql]
+----
+SELECT *
+FROM student
+ORDER BY id DESC
+LIMIT 5 OFFSET 5;
+----
+
+=== Task 7
+
+[source, java]
+----
+boolean isActive = false;
+
+if (isActive == true) {
+
+}
+----
